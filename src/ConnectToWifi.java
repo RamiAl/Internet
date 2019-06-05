@@ -45,10 +45,10 @@ class ConnectToWifi extends JFrame{
 		lblPassword.setBounds(362, 148, 76, 45);
 		getContentPane().add(lblPassword);
 		
-	    messageToUser = new JLabel();
-	    messageToUser.setBounds(362, 336, 181, 72);
-	    getContentPane().add(messageToUser);
-	    messageToUser.setVisible(false);
+	    	messageToUser = new JLabel();
+	    	messageToUser.setBounds(362, 336, 181, 72);
+	    	getContentPane().add(messageToUser);
+	   	messageToUser.setVisible(false);
 		
 		TheHandler handler = new TheHandler();
 		join.addActionListener(handler);
